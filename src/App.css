@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+*::-webkit-scrollbar {
+	width: 5px;
+}
+*::-webkit-scrollbar-track {
+	background: #212e36;
+}
+*::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.message {
+  text-align: left;
+  color:#d1e7e6;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin: 5px;
+  clear: both;
+}
+
+.message.left {
+  background-color: #212e36;
+  float: left;
+}
+.message.right {
+  float: right;
+  background-color: #1e4640;
+}
+.wrapper {
+  background:url('darkmode.png');
+  background-size:cover;
+}
+.room-chat {
+  width:400px;
+  height: 85vh;
+  padding: 0px 5px;
+  padding-top: 45px;
+  overflow-y: scroll;
+}
+.input-chat:focus {
+  outline: none;
+}
+.wrapper-input{
+  background-color: #212e36;
+}
+.input-chat {
+  width: 360px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #2d383e;
+  color:#8a969d;
+  border: none;
+  padding:10px 20px;
+}
+.title {
+  position: fixed;
+  top:0px;
+  background-color: #232d36;
+  width: 400px;
+  padding: 5px 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
