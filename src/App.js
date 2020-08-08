@@ -12,7 +12,9 @@ class App extends Component {
               <div className="message left">Hello</div>
               <div className="message right">Hello</div>
             </div>
-            <input className="input-chat" placeholder="Type a message" autoFocus={true} />
+            <form>
+              <input className="input-chat" placeholder="Type a message" autoFocus={true} />
+            </form>
           </div>
         </header>
       </div>
